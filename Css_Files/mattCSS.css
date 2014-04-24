@@ -54,8 +54,13 @@ a:active {color:#F9F9F7;} /* selected link */
 
 
 .container_body{
+<<<<<<< HEAD
   width: 50%;
   height: auto;
+=======
+  width: 54%;
+  height: 100%;
+>>>>>>> d37f28ea7f7304d237d2fbed0a0f5f9a68305526
   margin-top: 0px;
   overflow: auto;
 /*  margin-bottom: 0px;*/
