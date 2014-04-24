@@ -57,13 +57,10 @@ a:active {color:#F9F9F7;} /* selected link */
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #505050;
-  background: url(images/linear_bg_2.png);
-  background-repeat: repeat-x;
-
   /* Safari 4-5, Chrome 1-9 */
   background: -webkit-gradient(linear, 0% 0%, 0% 60%, from(#505050), to(#938072));
-
+/*  background-image: url(bgrnd.png);
+  background-repeat: repeat-x;*/
 
   padding-top: 0px;
   padding-bottom: 100%;
