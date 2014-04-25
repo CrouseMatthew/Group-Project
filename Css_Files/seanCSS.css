@@ -1,14 +1,13 @@
+
 body {
   font-size: 1.1em;
   font-family: arial, helvetica, sans-serif;
   background-color: #a69e94;
-  float: right;
-
 
 }
 
 h1 {
-  margin-left: 5em;
+  margin-left: 1em;
   margin-bottom: 10px;
 }
 
@@ -18,9 +17,9 @@ ul {
 
 nav {
   float: right;
-  width: 100px;
-  height: 50%;
-  color: none;
+  width: 210px;
+  height: 100%;
+  color: #efefe4;
   font-size: 11pt;
   text-decoration: none;
   line-height: 27px;
@@ -45,7 +44,7 @@ footer {
 }
 
 td {
-  padding-right: 10px;
+  padding-left: 10px;
 }
 
 a:link {color:#efefe4;}      /* unvisited link */
@@ -91,15 +90,15 @@ a:active {color:#F9F9F7;} /* selected link */
   margin-top: 20px;
   overflow: auto;
   margin-bottom: 20px;
-  margin-right: auto;
+  margin-left: auto;
   margin-right: auto;
   background-color: #FAF7E3;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-right:30px;
-  float: right;
+  margin-left:30px;
+  float: left;
 }
 
 .Secondary_container_text{
@@ -114,17 +113,10 @@ a:active {color:#F9F9F7;} /* selected link */
   -moz-border-radius: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-right: 20px;
+  padding-left: 20px;
   margin-right:30px;
-<<<<<<< HEAD:Css_Files/seanCSS.css
-  float: right;
-=======
   float: right;
 
-<<<<<<< HEAD:Css_Files/seanCSS.css
->>>>>>> ef4d3c308218fca2613a31117bea2eaafc9915b0:Css_Files/mattCSS.css
-=======
->>>>>>> ef4d3c308218fca2613a31117bea2eaafc9915b0:Css_Files/mattCSS.css
 }
 
 .site_logo{
