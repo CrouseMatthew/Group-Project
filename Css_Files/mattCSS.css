@@ -43,11 +43,7 @@ nav {
 }
 
 footer {
-<<<<<<< HEAD
   width: 90%;
-=======
-  width: 54%;
->>>>>>> 38ddbe53009cb23eb18e81be7d747da6f190cdcf
   font-size: .80em;
   min-height: 40px;
   text-align: center;
@@ -70,11 +66,7 @@ a:active {color:#F9F9F7;} /* selected link */
 
 .container_body{
   height: auto;
-<<<<<<< HEAD
   width: 90%;
-=======
-  width: 54%;
->>>>>>> 38ddbe53009cb23eb18e81be7d747da6f190cdcf
   height: 100%;
   margin-top: 0px;
   overflow: auto;
@@ -146,7 +138,6 @@ a:active {color:#F9F9F7;} /* selected link */
 
 }
 
-<<<<<<< HEAD
 #incense{
   float:left;
   -webkit-border-radius: 10px;
@@ -163,19 +154,4 @@ a:active {color:#F9F9F7;} /* selected link */
 .img_wrapper{
   width: 100%;
   height: auto;
-=======
-}
-
-#incense{
-  float:left;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  margin-right: 10px;
-}
-
-.button_img{
-  border:5px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
->>>>>>> 38ddbe53009cb23eb18e81be7d747da6f190cdcf
 }
