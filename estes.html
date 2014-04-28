@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" 
+    />
 
     <!-- Title of the company-->
     <title>Bridge City Massage</title>
     
     <!-- Linked to the CSS stylesheet rename it to your file name at the end to link up css sheet-->
-    <link rel="stylesheet" type="text/css" href="Css_Files/seanCSS.css" />
+    <link rel="stylesheet" type="text/css" href="Css_Files/mattCSS.css" />
   
     <!-- Linked to the JS scripts rename it to your file name at the end to link up the java file sheet-->
     <script type="text/javascript" src="Js_files/mattJava.js"></script>
-  	
+    
     <!-- the "style" tag container includes this page's unique style rules -->
     <style type="text/css">
-  		p, li {color: darkgray;}
-  	</style>
+        p, li {color: darkgray;}
+    </style>
 </head>
 <body>
-	<div class ="container_body">
-		<div class ="container_header">
-			<h1>Bridge City Massage</h1>
-			
-			<div class ="site_logo">
-				<img  src="images/rounded.logo.png"
-                	alt="replace this with the html validator padge code snippet"/>
-			</div>
+        <div id="navigation">
+            <a href ="#">Home</a>
+            <a href ="#">Contacts</a>
+            <a href ="#">Feedback</a>
+            <a href ="#">Links</a>
+            <a href ="#">About</a>
+        </div>
+    <div class ="container_body">
+        <div class ="container_header">
+        <div class ="white_buffer">
+        </div>
+            <h1>Bridge City Massage</h1>
+            <div class ="site_logo">
+                <img  src="images/massage-hotstone3.jpg"
+                    class ="img_wrapper"/>
+            </div>
+            <!--            <div class = "nav_container">
 			<nav>
 	        	<ul>
 	         		<li><a href="index.html">Home</a></li>
@@ -42,8 +52,10 @@
 	      	</nav>
 
 		</div>
-
-		<div class ="container_text">	
+         </div> -->
+     </div>
+    <div class ="container_text">	
+     <blockquote> 
 	<form  action="" method="POST" enctype="multipart/form-data">
     <input type="hidden" name="action" value="submit"/> Your name:<br />
     <input name="name" type="text" value="" size="50"/> <br /> Your email:<br />
@@ -51,6 +63,7 @@
     <textarea name="message" rows="10" cols="50"> </textarea> <br />
     <input type="submit" value="Send email"/>
 	</form>
+     </blockquote> 
 		</div> 		
 	<div class ="container_text">
 		<blockquote> 
