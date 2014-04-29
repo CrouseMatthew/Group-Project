@@ -3,10 +3,10 @@
 
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<title>Bridge City Massage</title>
+		<title>Feedback</title>
 		<meta name="keywords" content="" />
 		<meta name="description" content="" />
-		<link href="Css_Files/sam_style_stylesheet.css" rel="stylesheet" type="text/css" media="screen" />
+		<link href="Css_Files/mattCSS.css" rel="stylesheet" type="text/css" media="screen" />
 		<link href="Css_Files/sam_feedback_stylesheet.css" rel="stylesheet" type="text/css" media="screen" />
 <!--I don't think the link below is being used and I should delete the reference after I confirm.-->		
 		<link href="Css_Files/sam_superbox_stylesheet.css" type="text/css" rel="stylesheet" />
@@ -18,48 +18,43 @@
 	</head>
 
 	<body>
-		<div id="container_home">
-			<div id="header">
-				<div id="logo-text" class="cms-editable">
-					<h2>Bridge City Massage</h2>
-					<h3>(555) 555-1212</h3>
-				</div>		
-				<div class="clearfix">					
+
+		<div id="navigation">
+			<a href ="#">Home</a>
+			<a href ="#">Contacts</a>
+			<a href ="#">Feedback</a>
+			<a href ="#">Links</a>
+			<a href ="#">About</a>
+		</div>
+
+		<div class ="container_body">
+			<div class ="container_header">
+				<div class ="white_buffer">
 				</div>
-				<div id="header-pic" class="rounded inset-shadow">
-					<img id="head-pic" class="cms-editable" src="images/hot-stone-massage.jpg" alt="stone-pic" width="589" height="245" />	
-				</div>
-<!--The div id=top_nav will be replaced with our nav.--> 
-				<div id="top_nav" class="cms-navigation rounded inset-shadow transparent_class">
-					<ul>
-						<li><a href="index.php">home</a></li>
-						<li><a href="services.php">services</a></li>
-						<li><a href="about-us.php">about us</a></li>
-						<li><a href="about-massage.php">about massage</a></li>
-						<li><a href="price-list.php">price list</a></li>
-						<li><a href="gift-certificates.php">gift certificates</a></li>
-						<li class="last"><a href="contact.php">contact</a></li>
-					</ul>
-				</div>
-				<div class="palm-frond">&nbsp;
-				</div>
+				<h1>Bridge City Massage</h1>
+				<div class ="site_logo">
+					<img  src="images/massage-hotstone3.jpg" class ="img_wrapper"/>
+			
 			</div>
-			<div class="clearfix">
-			</div>
-<!-- The feedback section needs tests of its output. Also, can't find id="contact-info" and don't get why the line under the <h1> is showing up smaller than the original pages.-->
-			<div id="main">
-				<div id="body">			
-					<div id="contact-info" class="cms-editable">
-						<h1>Feedback</h1>
-						How was your recent visit? <br />
+		</div>
+	
+
+
+<!-- The radio buttons are not populating values.-->
+		<div class=container_full_page>
+			<!-- <div id="main">
+				<div id="body">-->	
+					<div>
+						<h2>Feedback</h2>
+						<h3>How was your recent visit? </h3><br />
 					</div>
 					<div id="contact">             	              
-			   			<div id="message">
-			   			</div>
+			   			<!--<div id="message">
+			   			</div>-->
 			   	               
 						<form method="post" action="javascript: postContactToGoogle()" name="contactform" id="contactform">
 			  	
-							<fieldset>
+							<fieldset style="width:500px">
 				
 								<label for="name"><span class="required">*</span> Your Name</label>
 								<input name="name" type="text" id="name" size="30" value="" /> 
@@ -79,7 +74,7 @@
 								<input name="recommend" id="recommend_no" type="radio" value="no">No<br> 
 								
 								<br />
-								<label for="schedule">Can we contact you to schedule an return appointment?</label>
+								<label for="schedule">Can we contact you to schedule a return appointment?</label>
 								<input name="schedule" id="schedule_yes" type="radio" value="yes">Yes<br>
 								<input name="schedule" id="schedule_no" type="radio" value="no">No<br>
 
@@ -120,19 +115,16 @@
                 });
         }
     </script>
-					<div class="clearfix">
-					</div>
+					<!--<div class="clearfix">
+					</div>-->
 				</div>
-
-				<div id="footer_second">
-					<div id="copy-secondary" class="cms-editable"?>
-						&copy; Copyright 2014 Bridge City Massage. All Rights Reserved.
-					</div>		
-				</div>
-				
-				
 			</div>
 		</div>
+		</div>
 
+		<footer>
+		Copyright &copy; 2014 <i>PCS Group</i>
+		</footer>
 	</body>
+	
 </html>
