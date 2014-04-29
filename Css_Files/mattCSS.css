@@ -17,6 +17,24 @@ h1 {
   visibility: hidden;
 }
 
+h2 {
+  font-size: 27pt;
+  color: #790000;
+  margin: 0,0,.65em,0;
+  font-weight: bold;
+  padding-left: 1em;
+  margin-bottom: .2em
+
+}
+
+h3{
+  font-size: 17pt;
+  margin-top: 0;
+  padding-left: 2em;
+  font-weight: normal;
+
+}
+
 
 footer {
   width: 90%;
@@ -118,6 +136,24 @@ color: grey;
   padding-top: 1.25em;
   padding-bottom: 1.25em;
   margin-left:2%;
+  float: left;
+}
+
+
+.container_full_page{
+  width: 92%;
+  margin-top: 2.25em;
+  overflow: auto;
+  margin-bottom: 1.25em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left:4%;
+  margin-right: 4%;
+  background-color: #FAF7E3;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
   float: left;
 }
 
