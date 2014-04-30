@@ -24,6 +24,17 @@ h1 {
   visibility: hidden;
 }
 
+}
+
+h4 {
+  padding-right: 10em;
+  float: right;
+  margin: .2em;
+  font-style: italic;
+  font-size: 90%;
+}
+
+
 ul {
   padding-left: 25px;
 }
