@@ -12,9 +12,9 @@
 		<link href="Css_Files/sam_superbox_stylesheet.css" type="text/css" rel="stylesheet" />
 <!--sam_jquery.js is needed to send the feedback to the google spreadsheet. I don't think sam_superbox_stylesheet.js is doing anything.-->		
 		<script src="Jscript/sam_jquery.js" type="text/javascript"></script>
-		<script src="sam_superbox_stylesheet.js" type="text/javascript"></script>
-<!--This script is now embedded below and I should delete the reference.-->		
-		<script src="sam_feedbackscript.js" type="text/javascript"></script>
+		<!--<script src="sam_superbox_stylesheet.js" type="text/javascript"></script>
+This script is now embedded below and I should delete the reference.		
+		<script src="sam_feedbackscript.js" type="text/javascript"></script>-->
 	</head>
 
 	<body>
@@ -40,14 +40,14 @@
 	
 
 
-<!-- The radio buttons are not populating values.-->
+<!-- The radio buttons are fixed.-->
 		<div class=container_full_page>
 			<!-- <div id="main">
 				<div id="body">-->	
-					<div>
+					
 						<h2>Feedback</h2>
 						<h3>How was your recent visit? </h3><br />
-					</div>
+					
 					<div id="contact">             	              
 			   			<!--<div id="message">
 			   			</div>-->
@@ -65,18 +65,18 @@
 							
 								<br />
 								<label for="positive">Was your recent visit a positive experience?</label>
-								<input name="positive" id="positive_yes" type="radio" value="yes">Yes<br>
-								<input name="positive" id="positive_no" type="radio" value="no">No<br>
+								<input name="positive" type="radio" value="yes">Yes<br>
+								<input name="positive" type="radio" value="no">No<br>
 								<br />
 
 								<label for="recommend">Would you recommend us to a friend?</label>
-								<input name="recommend" id="recommend_yes" type="radio" value="yes">Yes<br>
-								<input name="recommend" id="recommend_no" type="radio" value="no">No<br> 
+								<input name="recommend" type="radio" value="yes">Yes<br>
+								<input name="recommend" type="radio" value="no">No<br> 
 								
 								<br />
 								<label for="schedule">Can we contact you to schedule a return appointment?</label>
-								<input name="schedule" id="schedule_yes" type="radio" value="yes">Yes<br>
-								<input name="schedule" id="schedule_no" type="radio" value="no">No<br>
+								<input name="schedule" type="radio" value="yes">Yes<br>
+								<input name="schedule" type="radio" value="no">No<br>
 
 								<br />
 								<label for="comments">Other feedback:</label>
@@ -92,12 +92,10 @@
         function postContactToGoogle() {
             var name = $('#name').val();
             var contactinfo = $('#contactinfo').val();
-            var positive = $('#positive').val();
-            var recommend = $('#recommend').val();
-            var schedule = $('#schedule').val();
+            var positive = $("input:radio[name=positive]:checked").val();
+            var recommend = $("input:radio[name=recommend]:checked").val();
+            var schedule = $("input:radio[name=schedule]:checked").val();
             var comments = $('#comments').val();
-
-            var inputUser=$('input:radio[name=interview]:checked').val();
 
                 $.ajax({
                     url: "https://docs.google.com/forms/d/14N2ZEe9ZS121DlAnFiHhq42sziv9jbYvLh6sOsXeGoA/formResponse",

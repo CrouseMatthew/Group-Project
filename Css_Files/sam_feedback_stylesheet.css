@@ -1,3 +1,6 @@
+/*form {padding-left: 1.25em;*/
+  border: ;}
+
 .container_text{
   width: 100%;
   margin-top: 20px;
@@ -41,8 +44,8 @@
 #contact input.submit { width: 85px; cursor: pointer; border: 1px solid #222; background:#333; color:#fff; }
 #contact input.submit:hover { background:#444; }
 #contact input[type="submit"][disabled] { background:#888; }
-#contact fieldset { padding:20px; border:1px solid #eee; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; }
-#contact legend { padding:7px 10px; font-weight:bold; color:#000; border:10px solid #eee; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; margin-bottom:0 !important; margin-bottom:20px; }
+#contact fieldset { padding:2em; border:none; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; }
+#contact legend { padding:7px 10px; font-weight:bold; color:#000; border:1px solid #eee; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; margin-bottom:0 !important; margin-bottom:20px; }
 #contact input[type="radio"] {width: 20px;}
 
 #contact span.required{ font-size: 13px; color: #ff0000; } /* Select the colour of the * if the field is required. */
