@@ -35,6 +35,14 @@ h3{
 
 }
 
+h4 {
+  padding-right: 10em;
+  float: right;
+  margin: .2em;
+  font-style: italic;
+  font-size: 90%;
+}
+
 
 footer {
   width: 90%;
@@ -118,8 +126,9 @@ color: grey;
   margin-left: auto;
   margin-right: auto;
   background-color: #E1CDB5;
-  padding-bottom: 1.25em;
+  padding-bottom: .2em;
   font-style: italic;
+  color: #676660;
 }
 
 
