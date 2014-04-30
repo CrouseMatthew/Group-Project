@@ -30,7 +30,7 @@ h2 {
 h3{
   font-size: 17pt;
   margin-top: 0;
-  padding-left: 2em;
+  padding-left: 1.7em;
   font-weight: normal;
 
 }
@@ -130,7 +130,7 @@ color: grey;
   margin-bottom: 1.25em;
   margin-left: auto;
   margin-right: auto;
-  background-color: #FAF7E3;
+  background-color: #E1CDB5;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   padding-top: 1.25em;
@@ -149,7 +149,7 @@ color: grey;
   margin-right: auto;
   margin-left:4%;
   margin-right: 4%;
-  background-color: #FAF7E3;
+  background-color: #E1CDB5;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   padding-top: 1.25em;
@@ -164,7 +164,7 @@ color: grey;
   margin-bottom: 1.25em;
   margin-right: auto;
   margin-right: auto;
-  background-color: #FBF4BD;
+  background-color: #E1CDB5;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   padding-top: 1.25em;
@@ -190,7 +190,7 @@ color: grey;
   float:left;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
-  margin-right: .31em;
+  margin-right: 1em;
 }
 
 .button_img{
