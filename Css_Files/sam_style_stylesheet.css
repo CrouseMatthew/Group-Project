@@ -1,0 +1,762 @@
+body {
+	margin: 0;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 9pt;
+	color: #555555;
+	background: #a69e94;
+	}
+	
+h1 {
+	font-size: 17pt;
+	color: #790000;
+	margin: 0 0 10px 0;
+	font-weight: normal;
+	}
+	
+h2 {
+	margin: 9px 0 0 0;
+	padding: 0;
+	font-size: 20pt;
+	line-height: 11px;
+	color: #534741;
+	font-weight: normal;
+	}	
+
+h3 {
+	font-size: 12pt;
+	color: #790000;
+	font-weight: bold;
+	margin: 10px 0 0 0;
+	padding: 0;
+	}
+
+/* services subheads */
+h4 {
+	font-size: 12pt;
+	font-weight: bold;
+	margin: 0;
+	padding: 30px 0 4px 0;
+	}
+	
+h5 {
+	margin: 0;
+	padding: 0;
+	font-size: 10pt;
+	line-height: 11px;
+	color: #534741;
+	font-weight: normal;
+	}
+
+p {
+	line-height: 18px;
+	font-size: 8pt;
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+	}
+	
+.small {
+	font-size: 7pt;
+	color: #603811;
+	}
+	
+.clearfix {
+	clear: both;
+	}
+	
+.rounded {
+	-webkit-border-radius: 12px;  
+	-moz-border-radius: 12px;  
+	border-radius: 12px; 
+	}
+	
+.topround {
+	-moz-border-radius-topleft: 12px;
+	-moz-border-radius-topright: 12px;
+	-webkit-border-top-right-radius: 12px;  
+	-webkit-border-top-left-radius: 12px;  	
+	border-radius-topleft: 12px; 	
+	border-radius-topright: 12px;	
+	}
+	
+.box-shadow {	
+	-webkit-box-shadow: 0 0 15px #555;  
+	-moz-box-shadow: 0 0 15px #555;  
+	box-shadow: 0 0 15px #555;	
+	}			
+
+.inset-shadow {
+	-webkit-box-shadow: 0 0 20px #333 inset;  
+	-moz-box-shadow: 0 0 20px #333 inset;  
+	box-shadow: 0 0 20px #333 inset; 	
+	}	
+	
+.transparent_class {
+	filter:alpha(opacity=90);
+	-moz-opacity:0.9;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;
+	}				
+		
+.imgl{float:left; margin:0 8px 8px 0; clear:left; padding: 3px; border: 1px solid #acacac;}
+.imgr{float:right; margin:0 0 8px 8px; clear:right; padding: 3px; border: 1px solid #acacac;}	
+
+#container {
+	width:850px;
+	margin-right:auto;
+	margin-left:auto;
+	padding:0px;
+	text-align:left;
+	background: url(../images/secondaryBg2.jpg) #988575 no-repeat;
+	}
+	
+#container_home {
+	width:850px;
+	margin: 0 auto;
+	padding:38px 0 0 0;
+	text-align:left;
+	background: url(../images/bg5.jpg) #f3e4d2 repeat-x;
+	}	
+	
+#header {
+	width: 850px;
+	min-height: 358px;
+	margin: 0 0 25px 0;
+	padding-bottom: 20px;
+	background-color: #e1cdb5;
+	}	
+	
+.palm-frond {
+	width: 850px;
+	min-height: 358px;
+	margin: -106px 0 0 0;
+	background: url(../images/palm-frond.png) top right no-repeat;
+}	
+	
+#header-secondary {
+	width: 850px;
+	height: 358px;
+	margin-bottom: 55px;
+	background: url(../images/palm-frond.png) top right no-repeat;
+	}		
+	
+#header-pic {
+	float: left;
+	overflow: hidden;
+	width: 589px;
+	height: 245px;
+	margin: 0 15px 0 32px; 
+	}	
+	
+#header-pic-secondary {
+	float: left;
+	overflow: hidden;
+	width: 589px;
+	height: 245px;
+	margin: 0 15px 0 32px; 
+	}		
+	
+#main {
+	clear: both;
+	width: 765px;
+	margin: 0 auto 0 auto;
+	padding-top: 20px;
+	}
+	
+#main_appt {
+	clear: both;
+	width: 790px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 70px;
+	}		
+	
+#body {
+	background: #e1cdb5;
+	clear: both;
+	padding: 40px 60px 30px 50px;
+	margin-bottom: 20px;
+	}
+	
+#body_contact {
+	position: relative;
+	background: #e1cdb5;
+	height: 370px;
+	clear: both;
+	padding: 40px 60px 30px 50px;
+	margin-bottom: 20px;
+	}
+	
+#phonebox {
+	width: 300px;
+	margin: 45px auto 0 auto;
+	}
+	
+#phonebox p {
+	color: #efefe3;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	}
+	
+#phonebox h3 {
+	color: #efefe3;
+	font-size: 19px;
+	padding:0;
+	margin: 0;
+	}				
+	
+#main p {
+	line-height: 18px;
+	font-size: 9pt;
+	margin: 0 0 20px 0;
+	padding: 0;
+	text-align: justify;
+	}
+	
+#main_home {
+	width: 850px;
+	margin-right:auto;
+	margin-left:auto;
+	}
+	
+
+#logo-serv {
+	float: left;
+	margin: 20px 0 0 18px;
+	}	
+	
+
+#logo {
+	float: left;
+	margin: 20px 15px 10px 31px;
+	}
+
+
+#phone-top {
+	margin: 0 0 0 31px;
+	color: #fff;
+	}	
+	
+#logo-text {
+	float: left;
+	height: 75px;
+	vertical-align: middle;
+	margin: 31px 20px 0 30px;
+	}	
+	
+	
+#logo_secondary {
+	float: left;
+	width: 635px;
+	margin: 36px 0 0 18px;
+	}	
+	
+#logo_secondary_appt {
+	float: left;
+	width: 590px;
+	margin: 36px 0 0 18px;
+	}		
+	
+
+#top_nav {
+	width: 183px;
+	float: left;
+	font-size: 11pt;
+	background-color: #7e4630;
+	background: 
+	color: #efefe4;
+	}	
+
+#top_nav a {
+	color: #efefe4;
+	line-height: 27px;	
+	text-decoration: none;
+	}	
+	
+#top_nav a:hover {	
+	color: #56ef61;
+	}	
+	
+#top_nav ul {
+	margin: 0;
+	padding: 10px 15px;
+	}	
+
+#top_nav li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #a88068;
+	}
+	
+#top_nav .last {
+	border-bottom: none;
+	}	
+	
+#top_nav_second {
+	width: 130px;
+	float: left;
+	font-size: 11pt;
+	color: #efefe4;
+	padding: 108px 0 0 15px;
+	}
+	
+#top_nav_second a {
+	color: #efefe4;
+	line-height: 21px;	
+	text-decoration: none;
+	}
+	
+#top_nav_second a:hover {	
+	color: #56ef61;
+	}	
+	
+#top_nav_second dd {
+	margin: 0;
+	padding: 0;
+	}	
+	
+#top_nav_second_appt {
+	width: 170px;
+	float: left;
+	font-size: 11pt;
+	color: #efefe4;
+	padding: 108px 0 0 15px;
+	}		
+	
+#top_nav_second_appt a {
+	color: #efefe4;
+	line-height: 21px;	
+	text-decoration: none;
+	}
+	
+#top_nav_second_appt a:hover {	
+	color: #56ef61;
+	}	
+	
+#top_nav_second_appt dd {
+	margin: 0;
+	padding: 0;
+	}	
+	
+	
+#featured {
+	float: left;
+	background-color: #faf7e3;
+	width: 325px;
+	margin: 12px 0 0 32px;
+	padding: 20px;
+	font-size: 8pt;
+	}	
+	
+	
+	
+#left_nav {
+	float: left;
+	font-size: 8pt;
+	width: 315px;
+	margin: 80px 0 0 54px;
+	}
+
+.servs {
+	display: block;
+	clear: left;
+	margin-bottom: 10px;
+	}
+	
+.service-box {
+	margin: 10px 0 40px 10px;
+	}
+	
+.service-box h2 {
+	margin:0;
+	padding:0;
+	list-style:none;
+	border:none;
+	}
+	
+
+.read a {
+	font-size: 7pt;
+	color: #555555;
+	float: right;
+	text-decoration: none;
+	padding-top: 12px;
+	}
+	
+.read a:hover {
+	color: #790000;
+	}
+
+.miniPics {
+	padding: 0 10px 13px 0;
+	}
+	
+#welcome {
+	float: right;
+	background-color: #fbf4bd;
+	font-size: 8pt;
+	width: 354px;
+	padding: 20px;
+	margin: 12px 32px 0 0;
+	line-height: 18px;
+	color: #342925;
+	}
+	
+#welcome p {
+	margin-bottom: 15px;
+	font-size: 12px;
+	}	
+
+#special_offer {
+	float: right;
+	width: 260px;
+	margin: 30px 32px 0 0;
+	padding: 12px 0 12px 12px;
+	background-color: #6f6252; 	
+	}	
+	
+#special_offer h3 {
+	font-size: 18px;
+	font-weight: normal;
+	color: #fcf5bb;
+	padding: 0;
+	margin: 0;
+	}	
+	
+#footpic {
+	float: left;
+	}	
+	
+#footer {
+	background: url(../images/foot-bg.gif) repeat-x;
+	clear: both;
+	position: relative;
+	min-height: 183px;
+	top: 5px;
+	margin-top: 10px;	
+	color: #f3e4d2;
+	font-size: 8pt;
+	}
+	
+#footer_second {
+	clear: both;
+	background-color: yellow no-repeat;	
+	position: relative;
+	height: 183px;
+	padding: 0 0 0 25px;
+	font-size: 8pt;
+	color: #ece2d7;
+	}	
+	
+#footer_contact {
+	clear: both;
+	background: url(../images/footerBg.jpg) no-repeat;	
+	position: realtive;
+	height: 184px;
+	padding: 150px 0 0 25px;
+	font-size: 8pt;
+	color: #ece2d7;
+	}		
+
+#copy {
+	width: 850px;
+	margin: 10px auto 20px auto;
+	font-size: 8pt;
+	}
+	
+#copy-edit {
+	float: left;
+	}	
+	
+#bsb {
+	float: right;
+	margin: 4px 0 2px 0;
+	}
+	
+#bsb a {
+	color: #f3e4d2;
+	}		
+
+#copy-secondary {
+	float: left;
+	margin-top: 150px;
+	}
+
+#bsb-secondary {
+	float: right;
+	margin-right: 25px;
+	margin-top: 150px;	
+	}
+
+#bsb-secondary a {
+	color: #f3e4d2;
+	}	
+	
+#title {
+	margin: 0 0 0 49px;
+	}
+	
+.pics {
+	padding-left: 16px;
+	}
+
+#home_form {
+	float: left;
+	margin: 5px 0 0 0;
+	}
+#home_form label {
+	width: 4em;
+	float: left;
+	font-size: 8pt;
+	font-weight: bold;
+	text-align: right;
+	margin-right: 0.5em;
+	display: block
+	}
+	
+#home_form input {
+	color: #781351;
+	background: #ffffff;
+	border: 1px solid #525252
+	}
+
+.submit input {
+	float: right;
+	margin-left: 8px;
+	color: #ffffff;
+	background: #6b757e;
+	border: 1px #525252
+	} 
+	
+.submit input:hover {
+	color: #525252;
+	background: #c7b299;
+	border: 1px #525252
+	} 	
+	
+	
+#list_left {
+	float: left;
+	}
+
+#list_right {
+	float: right;
+	margin-right: 140px;
+	}
+	
+
+	
+	
+/* Price List */
+.price-table {
+	width: 500px;
+	margin:0 auto;	
+	}
+	
+.price-table th {
+	background: #7e4630;
+	color: #ffffff;
+	padding: 5px 0 5px 5px;
+	text-align: left;
+	}
+	
+.price-table td {
+	padding: 6px 0 6px 5px;
+	border-bottom: 1px solid #c69c6d;
+	}
+
+.price-table .spacer {
+	padding: 0 50px 0 5px;
+	}
+	
+.table-info {
+	margin-top: 20px;
+	}		
+	
+.table-info p {	
+	margin-bottom: 0px;
+	padding: 0;
+	}
+	
+.gratuity {
+	padding: 10px 0 0 90px;
+	}		
+	
+	
+/*	
+#price_table {
+	width: 500px;
+	margin-right:auto;
+	margin-left:auto;	
+	}
+	
+#price_table th {
+	background: #7e4630;
+	color: #f3e4d2;
+	padding: 5px 0 5px 5px;
+	}
+	
+#price_table td {
+	padding: 6px 0 6px 5px;
+	border-bottom: 1px solid #c69c6d;
+	}
+
+#price_table .spacer {
+	padding: 0 50px 0 5px;
+	}	
+	
+.gratuity {
+	padding: 20px 0 0 80px;
+	}
+*/	
+
+#gift_form button{
+	background: url(../images/button_buynow.gif) no-repeat;
+	width: 107px;
+	height: 27px;
+	margin: 17px 0 0 0;
+	border: 0;
+	color: white;
+	font-size: 13pt;
+	cursor: pointer; /* hand-shaped cursor */
+   cursor: hand; /* for IE 5.x */
+	}	
+	
+#gift-cert-table td {
+	border-bottom: none;
+	}	
+
+#myForm {
+	position: relative;
+	float: left;
+	margin-left: 50px;
+	z-index: 10;
+	}
+	
+.cssform {
+	margin-left: 30px;
+	}
+	
+.cssform p{
+	width: 300px;
+	clear: left;
+	padding: 0;
+	margin: 0;
+	padding-left: 125px; /*width of left column containing the label elements*/
+	}
+	
+.cssform label{
+	float: left;
+	text-align: right;
+	font-weight: bold;
+	margin-left: -125px; /*width of left column*/
+	width: 120px; /*width of labels. Should be smaller than left column (155px) to create some right margin*/
+	}
+	
+.cssform input[type="text"]{ /*width of text boxes. IE6 does not understand this attribute*/
+	width: 180px;
+	}
+	
+.cssform textarea{
+	width: 250px;
+	height: 100px;
+	}
+	
+.submit2 input {
+	color: #ffffff;
+	background: #6b757e;
+	border: 1px #525252
+	} 
+	
+.submit2 input:hover {
+	color: #525252;
+	background: #c7b299;
+	border: 1px #525252
+	}
+	
+a.aptRollover {
+	display: block;
+	width: 107px;
+	height: 22px;
+	text-decoration: none;
+	margin-top: 8px;
+	background: url(../images/appointments_roll.gif);
+	}
+	
+a.aptRollover:hover {
+	background-position: 0 -23px;
+	}		
+
+/*.threepxfix class below:
+Targets IE6- ONLY. Adds 3 pixel indent for multi-line form contents.
+to account for 3 pixel bug: http://www.positioniseverything.net/explorer/threepxtest.html
+*/
+* html .threepxfix{
+	margin-left: 3px;
+	}
+	
+#book_appt {
+	float: right;
+	background: #f1ede8;
+	border: 1px solid #525252;
+	padding: 10px 10px 10px 10px;	
+	width: 220px;
+	z-index: 10;
+	}
+	
+#map {
+	float: right;
+	width: 260px;
+	height: 350px;
+	margin: 38px 0 0 0;
+	}		
+	
+
+#content {
+	margin-left: 10px;
+	}	
+	
+#gallery-desc {
+	clear: both;
+	padding-top: 30px;
+	}		
+
+section { margin-top: 2em; }
+
+a.polaroid { -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; display: block; background: #fff; padding: 10px; margin:5px; -moz-box-shadow: #ccc 5px 5px 20px; -webkit-box-shadow: #ccc 5px 5px 20px; margin-bottom:1em; }
+a.polaroid img { width: 160px; border: 0px none;}
+a.polaroid:hover { -moz-box-shadow: #666 5px 5px 20px; -webkit-box-shadow: #666 5px 5px 20px; }			
+	
+	
+	
+#appts{
+	position: absolute;
+	top: 150px;
+	right: 0px;
+	display:block;
+	width: 46px;
+	height: 150px;
+	background: transparent url("../images/appts.png") 0px 0px no-repeat scroll;
+}
+#appts:hover{
+	background-position: -46px 0px;
+}	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

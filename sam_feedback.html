@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+		<title>Bridge City Massage: Feedback</title>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<link href="Css_Files/mattCSS.css" rel="stylesheet" type="text/css" media="screen" />
+		<link href="Css_Files/sam_feedback_stylesheet.css" rel="stylesheet" type="text/css" media="screen" />
+<!--I don't think the link below is being used and I should delete the reference after I confirm.-->		
+		<link href="Css_Files/sam_superbox_stylesheet.css" type="text/css" rel="stylesheet" />
+<!--sam_jquery.js is needed to send the feedback to the google spreadsheet. I don't think sam_superbox_stylesheet.js is doing anything.-->		
+		<script src="Jscript/sam_jquery.js" type="text/javascript"></script>
+		<!--<script src="sam_superbox_stylesheet.js" type="text/javascript"></script>
+This script is now embedded below and I should delete the reference.		
+		<script src="sam_feedbackscript.js" type="text/javascript"></script>-->
+	</head>
+
+	<body>
+
+		<div id="navigation">
+			<a href ="index.html">Home</a>
+			<a href ="estes.html">Contacts</a>
+			<a href ="sam_feedback.html">Feedback</a>
+			<a href ="sam_links.html">Links</a>
+			<a href ="#">Services</a>
+		</div>
+
+		<div class ="container_body">
+			<div class ="container_header">
+				<div class ="white_buffer">
+				</div>
+				<h1>Bridge City Massage</h1>
+				<div class ="site_logo">
+					<img  src="images/massage-hotstone3.jpg" class ="img_wrapper"/>
+			
+			</div>
+		</div>
+	
+		<div class=container_full_page>
+				
+					
+					<h2>Feedback</h2>
+					<h3>How was your recent visit? </h3><br />
+					
+					<div id="contact">             	              
+			   			<!--<div id="message">
+			   			</div>-->
+			   	               
+						<form method="post" action="javascript: postContactToGoogle()" name="contactform" id="contactform">
+			  	
+							<fieldset style="width:500px">
+				
+								<label for="name"><span class="required">*</span> Your Name</label>
+								<input name="name" type="text" id="name" size="30" value="" /> 
+								
+								<br />
+								<label for="contactinfo"><span class="required">*</span> Contact Info e.g. Email, Phone</label>
+								<input name="contactinfo" type="text" id="contactinfo" size="30" value="" />
+							
+								<br />
+								<label for="positive">Was your recent visit a positive experience?</label>
+								<input name="positive" type="radio" value="yes">Yes<br>
+								<input name="positive" type="radio" value="no">No<br>
+								<br />
+
+								<label for="recommend">Would you recommend us to a friend?</label>
+								<input name="recommend" type="radio" value="yes">Yes<br>
+								<input name="recommend" type="radio" value="no">No<br> 
+								
+								<br />
+								<label for="schedule">Can we contact you to schedule a return appointment?</label>
+								<input name="schedule" type="radio" value="yes">Yes<br>
+								<input name="schedule" type="radio" value="no">No<br>
+
+								<br />
+								<label for="comments">Other feedback:</label>
+								<textarea name="comments" cols="30" rows="3"  id="comments" style="width: 400px;"></textarea> 
+
+								<input type="submit" class="submit" id="submit" value="Submit" />
+
+							</fieldset>		          
+						</form>			                      
+					</div>
+					 
+					    <script>
+        function postContactToGoogle() {
+            var name = $('#name').val();
+            var contactinfo = $('#contactinfo').val();
+            var positive = $("input:radio[name=positive]:checked").val();
+            var recommend = $("input:radio[name=recommend]:checked").val();
+            var schedule = $("input:radio[name=schedule]:checked").val();
+            var comments = $('#comments').val();
+
+                $.ajax({
+                    url: "https://docs.google.com/forms/d/14N2ZEe9ZS121DlAnFiHhq42sziv9jbYvLh6sOsXeGoA/formResponse",
+                    data: { "entry.1959956746": name, "entry.1222223296": contactinfo, "entry.1794504132": positive, "entry.1535238702": recommend, "entry.826728451": schedule, "entry.786157567": comments },
+                    type: "POST",
+                    dataType: "xml",
+                    statusCode: {
+                        0: function () {
+                            window.location.replace("sam_thankyou.html");
+                        },
+                        200: function () {
+                            window.location.replace("sam_thankyou.html");
+                        }
+                    }
+                });
+        }
+    </script>
+					
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<footer>
+		Copyright &copy; 2014 <i>PCS Group</i>
+		</footer>
+	</body>
+	
+</html>

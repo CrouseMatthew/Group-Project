@@ -1,0 +1,126 @@
+/* Base Superbox Styles */
+#superbox-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9998;
+	width: 100%;
+	height: 100%;
+}
+#superbox-wrapper {
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+#superbox-container {
+	position: relative;
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+#superbox {
+	margin: 0 auto;
+	padding: 0;
+}
+#superbox-container .loading {
+	margin: 0;
+	text-align: center;
+}
+
+/* IE7 */
+*:first-child+html #superbox-container {
+	position: absolute;
+	top: 50%;
+	display: block;
+	height: auto;
+}
+*:first-child+html #superbox {
+	position: relative;
+	top: -50%;
+	display: block;
+}
+/* IE6 - Thanks to Thickbox for IE expressions */
+* html #superbox-container {
+	position: absolute;
+	top: 50%;
+	display: block;
+	height: auto;
+}
+* html #superbox {
+	position: relative;
+	top: -50%;
+	display: block;
+}
+* html #superbox-overlay {
+	position: absolute;
+	height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight + 'px' : document.body.offsetHeight + 'px');
+}
+* html #superbox-wrapper {
+	position: absolute;
+	margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+
+/* Default Theme */
+#superbox-overlay {
+	background: #000 url("../images/loader.gif") center center no-repeat scroll;
+}
+#superbox-container .loading {
+	font-size: 0;
+	text-indent: -9999px;
+}
+#superbox {
+	padding: 0;
+	background-color:#fff;
+	border-style:solid;
+	border-color:#fff;
+	border-width: 9px 20px 20px 20px;
+	border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	-webkit-box-shadow:  5px 5px 10px 0px rgba(0, 0, 0, .7);
+	box-shadow:  5px 5px 10px 0px rgba(0, 0, 0, .7);
+}
+#superbox-innerbox {
+	padding: 10px 0;
+}
+#superbox.image {
+	text-align: center;
+}
+#superbox .close,
+#superbox .nextprev {
+	overflow: hidden;
+	margin: 0;
+}
+.close {
+    display: block;
+    margin-top: -21px !important;
+    position: absolute;
+    width: 930px;
+}
+.close > a {
+    display: block;
+    height: 40px;
+    margin: 0;
+    text-align: right;
+    width: 100%;
+}
+.close span {
+	background: url("../images/close.png") no-repeat scroll 0 0 transparent;
+	color: red;
+	display: inline-block;
+	font-size: 0;
+	height: 32px;
+	padding: 0;
+	text-transform: uppercase;
+	width: 32px;
+}
+.close span:hover {
+	cursor: pointer;
+	color: yellow;
+}
