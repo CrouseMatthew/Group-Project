@@ -59,6 +59,12 @@ td {
   padding-left: 10px;
 }
 
+iframe {
+  width: 85px;
+  height: 20px;
+}
+
+
 a:link {color:#efefe4;}      /* unvisited link */
 a:visited {color:#DBDBC1;}  /* visited link */
 a:hover {color:#2D2C26;}   /* mouse over link */
@@ -205,6 +211,10 @@ color: grey;
 .social_container{
   border: 0px;
   text-align: right;
+  position: absolute;
+  padding-left: 1.25em;
+  padding-top:.5em;
+
 }
 .button_img{
   border:5px;
