@@ -199,7 +199,7 @@ color: grey;
 }
 
 
-#incense{
+#headshot{
   float:left;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -233,6 +233,30 @@ color: grey;
 .img_wrapper{
   width: 100%;
   height: auto;
+}
+
+.container_notvis
+{
+  width: 46%;
+  margin-top: .2em;
+  overflow: auto;
+  margin-bottom: .2em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  padding-top: 1em;
+  padding-bottom: 1.25em;
+  margin-left:2%;
+  float: left;
+}
+
+#rocks{
+  width: 100%;
+  height: auto;
+  float:left;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  margin-right: 0px;
 }
 
 
