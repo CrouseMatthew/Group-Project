@@ -237,7 +237,11 @@ color: grey;
   border:5px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
-  width: 125px;
+  width: 105px;
+}
+
+.button_img:hover{
+    border:5px solid #938072;
 }
 
 .img_wrapper{
