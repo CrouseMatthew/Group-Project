@@ -43,6 +43,16 @@ h4 {
   font-size: 90%;
 }
 
+h5 {
+  padding-right: 1em;
+  float: right;
+  margin: .2em;
+  font-style: italic;
+  font-size: 90%;
+  float: left;
+  padding-left: 1.5em;
+}
+
 
 footer {
   width: 90%;
@@ -98,6 +108,7 @@ text-decoration: none;
 color: grey;
 } 
  
+
 .white_buffer{
   width:100%;
   background-color: white;
@@ -141,8 +152,7 @@ color: grey;
   margin-top: 1.25em;
   overflow: auto;
   margin-bottom: 1.25em;
-  margin-left: auto;
-  margin-right: auto;
+  margin-right: 2%;
   background-color: #E1CDB5;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -175,8 +185,6 @@ color: grey;
   margin-top: 1.25em;
   overflow: auto;
   margin-bottom: 1.25em;
-  margin-right: auto;
-  margin-right: auto;
   background-color: #E1CDB5;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -199,7 +207,7 @@ color: grey;
 }
 
 
-#incense{
+#headshot{
   float:left;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -228,11 +236,36 @@ color: grey;
   border:5px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
+  width: 125px;
 }
 
 .img_wrapper{
   width: 100%;
   height: auto;
+}
+
+.container_notvis
+{
+  width: 49%;
+  margin-top: .2em;
+  overflow: auto;
+  margin-bottom: .2em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  padding-top: 1em;
+  padding-bottom: 1.25em;
+  margin-left: 0px;
+  float: left;
+}
+
+#rocks{
+  width: 100%;
+  height: auto;
+  float:left;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  margin-right: 0px;
 }
 
 
